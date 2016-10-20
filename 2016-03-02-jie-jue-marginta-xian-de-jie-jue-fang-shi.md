@@ -1,0 +1,1 @@
+1. 假如子元素有margin，然后父元素没有border或者padding，产生了塌陷，那么可以为父元素增加一个`overflow: auto;`属性从而取消塌陷的效果。让margin在父元素里面。

@@ -1,0 +1,1 @@
+今天看到一篇很好的文章，推荐给大家。就是使用格式化的git message，有相对应的工具帮助生成。[使用git message](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)

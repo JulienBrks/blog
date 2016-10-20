@@ -1,0 +1,1 @@
+![mindmap](/content/images/2015/07/Untitled.png)

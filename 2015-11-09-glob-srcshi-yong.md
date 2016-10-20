@@ -1,0 +1,1 @@
+* gulp.src()使用[glob](https://github.com/gulpjs/gulp/blob/master/docs/API.md)进行路径匹配。它允许传数组，假如传入数组，那么就匹配出符合数组里面所有的匹配条件的路径。
