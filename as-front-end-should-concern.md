@@ -26,3 +26,4 @@
 24. 输入框的数据到模型的数据同步，使用blur和keydown(keydown里面判断是否是回车，假如是进行一次同步)。因为浏览器会有莫名其妙的附加操作可以修改输入框的值，比如type=number和ie的x清除，所以使用blur进行同步比较好。假如只使用blur进行同步也会有问题，由于可能会出现输入过程中进行回车搜索的情况，这个时候还没有触发blur事件，数据还没有同步到model里面，需要进行一次同步。
 25. 注意IE低版本浏览器可能会缓存GET请求，所以遇到get的ajax请求的时候需要注意带上query string, 随机数或者当前时间
 26. 输入框一定要注意限定type，不同的类型就使用不同的type，特别是number的情况
+27. form表单里面的input框按回车的时候会自动触发type=submit的button的click事件。PS: 假如一个form表单内部没有一个type=submit的button，而且也没有声明type，那么这个button也会被点击
