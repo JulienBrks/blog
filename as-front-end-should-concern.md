@@ -27,3 +27,4 @@
 25. 注意IE低版本浏览器可能会缓存GET请求，所以遇到get的ajax请求的时候需要注意带上query string, 随机数或者当前时间
 26. 输入框一定要注意限定type，不同的类型就使用不同的type，特别是number的情况
 27. form表单里面的input框按回车的时候会自动触发type=submit的button的click事件。PS: 假如一个form表单内部没有一个type=submit的button，而且也没有声明type，那么这个button也会被点击
+28. input的type为number的时候，允许输入e、-、+，然后获取的时候假如发现不是数字，那么就返回空字符串，比较坑
