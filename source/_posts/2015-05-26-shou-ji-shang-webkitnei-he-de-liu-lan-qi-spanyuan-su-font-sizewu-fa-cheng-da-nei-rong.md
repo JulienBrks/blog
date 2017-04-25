@@ -1,3 +1,6 @@
+---
+title: 手机上行内元素无法设置font-size的问题
+---
 今天在safari浏览器上开发官网发现有一个span元素始终无法设置font-size。在网上搜索后发现webkit浏览器会有私有的-webkit-text-size-adjust属性，用于自动调整字体，方便阅读。
 
 解决方式:
