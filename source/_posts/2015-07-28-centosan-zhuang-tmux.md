@@ -1,5 +1,5 @@
 ---
-title: 解决perl: warning: Setting locale failed
+title: 解决perl warning Setting locale failed
 ---
 1、使用git下来源码
 2、进入项目目录 `sh autogen.sh`
