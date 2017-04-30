@@ -1,3 +1,6 @@
+---
+title: 修改mysql默认编码
+---
 1. 查看当前编码`mysql> SHOW VARIABLES LIKE 'character%';`
 
 2. `vim /etc/my.cnf`在尾部加上下面代码：

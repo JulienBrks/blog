@@ -1,1 +1,0 @@
-* 出现这个问题`Error: Cant $fetch if resource is not bound`, 原因一般是出现在$find和$fetch方法, 一般来讲是传的id不对(`undefined`或者`null`)

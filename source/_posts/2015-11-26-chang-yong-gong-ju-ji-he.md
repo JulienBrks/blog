@@ -1,3 +1,6 @@
+---
+title: mac必备软件
+---
 基础类:  
 1. chrome插件: vimium, 脱离鼠标，使用键盘操作chrome
 2. terminal的替换工具: iterm

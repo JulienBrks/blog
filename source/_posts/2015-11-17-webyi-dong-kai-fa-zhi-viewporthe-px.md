@@ -1,3 +1,6 @@
+---
+title: viewport的使用
+---
 本文为这一篇[文章](http://www.cnblogs.com/2050/p/3877280.html)的总结。
 
 感谢这一篇[文章](http://tgideas.qq.com/webplat/info/news_version3/804/7104/7106/m5723/201509/376281.shtml)提供了关于iphone的dpi的数据和google定义的dpi的说明数据。

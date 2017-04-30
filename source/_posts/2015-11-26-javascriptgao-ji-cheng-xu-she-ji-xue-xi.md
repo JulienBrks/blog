@@ -1,3 +1,6 @@
+---
+title: javascript事件简介
+---
 ### 概念
 事件流描述的是从页面中获取事件的顺序。事件流属于在DOM(文档对象模型)的事件定义中。DOM的定义模型描述(API)经历过好几级变化。从DOM0级到DOM3级[历史](http://segmentfault.com/a/1190000000366311)。关于时间的定义主要在DOM0级和DOM2级里面有定义。*现在支持DOM0级的浏览器主要是IE8，像IE9, Firefox, Opera, Safari和Chrome都全部已经实现了"DOM2级事件"模块的核心部分。IE8是最后一个仍然使用其专有事件系统的主要浏览器。*(来自Javascript高级程序设计)
 

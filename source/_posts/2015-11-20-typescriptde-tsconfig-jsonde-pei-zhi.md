@@ -1,3 +1,6 @@
+---
+title: typescript的配置选项简介
+---
 #### 作用:
 它主要使用在typescript的编译中作为配置文件，typescript的编译会默认寻找当前目录的tsconfig.json，然后读取里面的配置进行编译。
 

@@ -1,3 +1,6 @@
+---
+title: IE兼容性问题
+---
 1. IE6和IE7不支持box-sizing, table-cell
 2. 使用table-cell进行垂直居中的时候发现IE7下不能够成功，通过一些hack属性可以完美支持IE7和IE6，具体请看[链接](http://bbs.blueidea.com/thread-2823535-1-1.html).
 3. IE5及以下或者IE下的混淆模式会出现盒模型(我们称之为IE盒模型)跟w3c定义的盒模型不一样，IE的盒模型的width(或者height)=content的总宽度 + padding的总宽度 + border的总宽度。而w3c的盒模型为width = content的总宽度。

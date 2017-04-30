@@ -1,1 +1,0 @@
-1. 在当前的session下面创建一个会话`Ctrl-b` + `new`

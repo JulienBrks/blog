@@ -1,3 +1,6 @@
+---
+title: 正确使用angular的config方法
+---
 1、基本用法: 定义模块的config阶段进行声明需要绑定的验证关系，代码如下:
 ```
 angular.module 'network_manage', ['validation']

@@ -1,4 +1,7 @@
-### 修复恼人的 perl: warning: Setting locale failed
+---
+title: 修复恼人的 perl: warning: Setting locale failed
+---
+### 
 ```
 perl: warning: Setting locale failed.
 perl: warning: Please check that your locale settings:

@@ -1,3 +1,6 @@
+---
+title: JS规范
+---
 1. 使用严格模式。
 
 		'use strict';

@@ -1,3 +1,6 @@
+---
+title: linux常用命令
+---
 * lsb_release -a 查看本机linux的发布版本信息
 * df 查看本机磁盘使用情况
 * tar zxvf 解压.tar.gz压缩包

@@ -1,3 +1,6 @@
+---
+title: 背景图片随图片自动铺满
+---
 我们知道背景图片的`background-size: cover`可以让元素自动铺满整个元素。但在手机web上面我们经常会遇到这样的问题，那就是手机web的屏幕分辨率五花八门，所以要保证有一些背景元素也能够自适应的进行变化。但是背景图片不是img标签，不会随着元素宽度的变化而可以改变高度(img标签可以通过设置(`width: 一个百分值;height: auto;`来做到。)。为了能够让背景元素也能够进行自动拉伸，保证图片能够按照原来的长宽比例铺满元素，我们需要自动拉伸元素的高度。
 
 今天从stackoverflow发现有一个人是这么解决这个问题的,[链接](http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size)。

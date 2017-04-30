@@ -1,3 +1,6 @@
+---
+title: 百度地图polygon的api的使用的注意点
+---
 使用百度地图js api 2.0, 使用polygon的时候，发现创建polygon之后在加入到地图图层之前就开始编辑模式，就不能创建第二个polygon，如下面代码(coffee写的，不完整):
 ```
 points = [

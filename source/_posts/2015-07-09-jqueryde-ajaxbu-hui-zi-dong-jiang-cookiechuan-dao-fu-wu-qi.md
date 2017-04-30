@@ -1,3 +1,6 @@
+---
+title: 跨域session cookie共享
+---
 原因: 由于跨域请求的两个域的session cookie是不一样的，所以我们发起一个跨域请求时，本域的session cookie不会放到跨域请求的Set-Cookie头里面。
 
 可以通过参数增加xhrFields字段解决这个问题

@@ -1,3 +1,6 @@
+---
+title: angularjs跟reactjs区别
+---
 今天主要讲下reactjs和angularjs的区别:
 
 1. react提供了一个创建组件所需的行为和模板，它使用createClass这个方法创建一个组件,使用render方法返回一个模板，使用getInitialState方法初始化state(状态),这个状态保存了模板所需要的数据(模型)。在angularjs里面也同样存在指令完成了同样的功能, 两者都有模板定义,都可以申明模型,都可以创建模板上的行为, 区别不是很大。

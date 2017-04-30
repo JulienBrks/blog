@@ -1,3 +1,6 @@
+---
+title: 浏览器转义
+---
 #### 写这个的背景: 
 
 最近做项目过程中发现有时候后端返回的字符串会是`&lt;script&gt;console.log(&quot;asdf&quot;)&lt;/script&gt;`这样的字符串。然后浏览器会呈现出`<script>console.log("asdf")</script>`。像`&lt;`转化为了`<`，就是浏览器会自动进行转义。

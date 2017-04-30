@@ -1,3 +1,6 @@
+---
+title: 关闭chrome记住密码的黄色背景
+---
 * 思路一:使用chrome的私有属性设置特殊的背景和字体颜色
 ```
 input:-webkit-autofill {
